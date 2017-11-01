@@ -1,0 +1,39 @@
+{
+  "name": "syncup",
+  "description": "Sync github releases with an S3 bucket",
+  "version": "1.0.0",
+  "main": "syncup.js",
+  "bin": {
+    "syncup": "syncup.js"
+  },
+  "private": false,
+  "preferGlobal": true,
+  "homepage": "https://github.com/kwent/syncup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwent/syncup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kwent/syncup/issues"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "github"
+  ],
+  "author": "Quentin Rousseau <contact@quent.in>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.141.0",
+    "commander": "^2.11.0",
+    "follow-redirects": "^1.2.5",
+    "github-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}

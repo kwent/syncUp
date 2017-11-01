@@ -1,0 +1,2 @@
+# Do not publish doc folder to the npm registry.
+doc/
