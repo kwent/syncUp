@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const https = require('follow-redirects').https; // eslint-disable-line prefer-destructuring
 const program = require('commander');
 const GitHub = require('github-api');
