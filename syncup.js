@@ -6,7 +6,7 @@ const GitHub = require('github-api');
 const S3 = require('aws-sdk/clients/s3');
 
 program
-  .version('1.0.0')
+  .version('1.0.1')
   .option('--user <user>', 'Github Username or Organisation. (Required)')
   .option('--repository <repository>', 'Github Repository name. (Required)')
   .option('--bucket-name <bucket-name>', 'Destination S3 Bucket. (Required)')

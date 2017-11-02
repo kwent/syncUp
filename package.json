@@ -1,7 +1,7 @@
 {
   "name": "syncup",
   "description": "Sync github releases with an S3 bucket",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "syncup.js",
   "bin": {
     "syncup": "syncup.js"

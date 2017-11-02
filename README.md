@@ -1,6 +1,6 @@
 # syncUp
 
-Sync Github Releases Assets to an S3 bucket.
+Sync your Github Releases Assets with an S3 bucket 🔄
 
 [![npm version](https://img.shields.io/npm/v/syncup-cli.svg?style=flat)](https://www.npmjs.com/package/syncup)
 
@@ -19,6 +19,26 @@ $ npm install syncup --global
 ```bash
 # AWS Credentials are read from environment variables or profile located in ~/.aws/credentials.
 $ syncup --user yarnpkg --repository yarn --bucket-name my-mirror-s3-bucket --bucket-prefix 'downloads/'
+```
+
+## Help
+
+```
+  Usage: syncup [options]
+
+  Options:
+
+    -V, --version                        output the version number
+    --user <user>                        Github Username or Organisation. (Required)
+    --repository <repository>            Github Repository name. (Required)
+    --bucket-name <bucket-name>          Destination S3 Bucket. (Required)
+    --github-user <github-user>          Github Username. Allow to access private repository and higher rate limits. (Optional)
+    --github-password <github-password>  Github Password. Allow to access private repository and higher rate limits. (Optional)
+    --github-token <github-token>        Github OAuth Token. Allow to access private repository and higher rate limits. (Optional)
+    --bucket-prefix <bucket-prefix>      Prefix Destination S3 Bucket.
+    --acl <acl>                          S3 ACL. (Optional | Default: public-read)
+    --sse <sse>                          S3 Encryption Method. (Optional)
+    -h, --help                           output usage information
 ```
 
 # History
