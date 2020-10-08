@@ -52,7 +52,8 @@ View the [changelog](https://github.com/kwent/syncup/blob/master/CHANGELOG.md)
 # License
 
 ```plain
-Copyright (c) 2017 Quentin Rousseau <contact@quent.in>
+Copyright (c) 2020 Quentin Rousseau <contact@quent.in>
+Copyright (c) 2020 Quentin Rousseau <contact@quent.in>
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
